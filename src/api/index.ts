@@ -1,5 +1,5 @@
 import type { ChatMessage, ChatResponse } from '@/types';
-const apiKey = 'fk231997482.zOkaYOrpGaOZ7tqEFMSPRh96dwCs0GVKcd0661df';
+const apiKey = 'xxxx';
 const apiUrl = 'https://api.360.cn/v1/chat/completions';
 export const chat = async (
   messageList: ChatMessage[]
