@@ -1,6 +1,6 @@
 # 360gpt
 
-使用 360 智脑搭建的聊天对话
+使用 360 智脑 搭建的聊天对话
 
 ## Project Setup
 
@@ -19,3 +19,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Demo
+
+![alt text](./src/assets/image.png)

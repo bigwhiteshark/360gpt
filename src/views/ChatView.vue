@@ -165,14 +165,19 @@ body {
 }
 .container {
   position: relative;
-  width: 600px;
-  height: 600px;
-  background-color: #eee;
-  border-radius: 12px;
+  width: 100%;
+  height: calc(100vh - 200px);
 }
 .container .message-box {
+  width: 980px; 
   height: 550px;
   overflow-y: auto;
+  background-color: #eee;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  border: 2px solid #000;
 }
 .container .message-box .message-item {
   width: 100%;
@@ -180,12 +185,14 @@ body {
 }
 .input-box {
   display: flex;
+  margin-top: 10px;
   align-items: center;
   justify-content: space-between;
 }
 .input-box .input {
   height: 50px;
   width: 100%;
+  margin-right: 5px;
   outline: none;
   padding: 0 20px;
   font-size: 18px;
